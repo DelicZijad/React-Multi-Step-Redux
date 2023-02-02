@@ -1,0 +1,61 @@
+.extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: var(--bdr2) var(--LightGray);
+}
+.extraPicked{
+    background-color: var(--PurplishBlue);
+    background-color: var(--Magnolia);
+}
+    .extra:hover,
+    .extra:focus {
+     border: var(--bdr2) var(--PurplishBlue);
+         }
+        
+.extra * {
+         cursor: pointer;
+}
+.extraType{
+    color: var(--MarineBlue);
+    font-size: var(--fs-300);
+    font-weight: 500;
+}
+.extraDesc{
+    font-size: var(--fs-200);
+    color: var(--CoolGray);
+}
+
+.extra input {
+      accent-color:var(--PurplishBlue);
+      height: 1rem;
+      width: 1rem;
+      padding: 0.25rem;
+  }
+
+
+.extraMain {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+  }
+
+
+  .extraPrice {
+      font-size: 0.875rem;
+      color: var(--PurplishBlue);
+  }
+   
+.extra button {
+      border: none;
+  }
+
+  @media screen and (min-width:1024px) {
+    .extraPrice{
+    font-size: 1rem;
+    }
+ }

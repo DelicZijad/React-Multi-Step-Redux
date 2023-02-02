@@ -1,0 +1,38 @@
+.display {
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 2rem 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    background-color: white;
+}
+.displayHeader{
+    margin-bottom: 1.5rem;
+}
+.displayHeader h1{
+    font-size: var(--fs-800);
+    font-weight: 500;
+    color: var(--MarineBlue);
+}
+.displayHeader h2{
+    font-size: var(--fs-400);
+    font-weight: 500;
+    color: var(--CoolGray);
+    font-weight: 400;
+}
+
+@media screen and (min-width:1024px) {
+       .display{
+         position: static;
+         transform: translate(0);
+         width: 100%;
+         padding: 0;
+        margin-bottom: 0;
+            }
+                        .displayHeader h1 {
+                            font-size: var(--fs-900);
+                        }
+}

@@ -1,0 +1,55 @@
+.summary {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--Alabaster);
+}
+.summaryMain {
+     padding-bottom: 1rem;
+     border-bottom: var(--bdr1) var(--lightGray);
+     margin-bottom: 1rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+.summaryMain h2 {
+ font-size: var(--fs-500);
+ font-weight: 500;
+ color: var(--MarineBlue);
+ }
+ .summaryMain h4{
+    font-size: var(--fs-600);
+    font-weight: 500;
+    color: var(--MarineBlue);
+ }
+
+.summaryMain button {
+ font-size: var(--fs-400);
+ color: var(--CoolGray);
+ text-decoration: underline;
+ }
+
+.summaryExtra {
+ display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.summaryExtra h2,.summaryTotal h2 {
+font-size: var(--fs-400);
+color: var(--CoolGray);
+}
+.summaryExtra h3{
+font-size: var(--fs-500);
+color: var(--MarineBlue);
+}
+.summaryTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+}
+ .summaryTotal h3 {
+     font-size: var(--fs-600);
+     font-weight: 500;
+     color: var(--PurplishBlue);
+ }

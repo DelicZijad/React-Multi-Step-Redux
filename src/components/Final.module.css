@@ -1,0 +1,19 @@
+.final {
+    display: grid;
+    place-items: center;
+    padding-block: 2rem;
+}
+.finalImage{
+ margin-bottom: 1rem;
+}
+.final h2 {
+       margin-bottom: 1rem;
+       font-size: var(--fs-700);
+       font-weight: 500;
+       color: var(--MarineBlue);
+   }
+
+.final p {
+       text-align: center;
+       color: var(--CoolGray);
+   }

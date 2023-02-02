@@ -1,0 +1,36 @@
+  .form{
+    background-color: white;
+  }
+  .form label {
+       margin-bottom: 0.25rem;
+       color: var(--MarineBlue);
+   }
+
+   .formInput {
+    border: var(--bdr2) var(--LightGray);
+        padding: 0.75rem;
+        border-radius: 5px;
+        width: 100%;
+        color: var(--MarineBlue);
+        font-weight: 500;
+        font-size: var(--fs-300);
+    }
+   .formInputInvalid {
+border-color: var(--StrawberryRed);
+    }
+    .formInput:focus {
+              border-color: var(--MarineBlue);
+    }
+
+ .formControl {
+     position: relative;
+    margin-bottom: 1rem;
+ }
+    
+.formError {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: 500;
+        color: var(--StrawberryRed);
+}

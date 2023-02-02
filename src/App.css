@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+:root{
+    --MarineBlue: hsl(213, 96%, 18%);
+    --PurplishBlue: hsl(243, 100%, 62%);
+    --PastelBlue: hsl(228, 100%, 84%);
+    --LightBlue: hsl(206, 94%, 87%);
+    --StrawberryRed: hsl(354, 84%, 57%);
+    --CoolGray: hsl(231, 11%, 63%);
+    --LightGray: hsl(229, 24%, 87%);
+    --Magnolia: hsl(217, 100%, 97%);
+    --Alabaster: hsl(231, 100%, 99%);
+
+        --fs-100: 0.75rem;
+        --fs-200:0.875rem;
+        --fs-300:1rem;
+        --fs-400:1.125rem;
+        --fs-500:1.25rem;
+        --fs-600:1.5rem;
+        --fs-700:1.75rem;
+        --fs-800:2rem;
+        --fs-900:2.25rem;
+          
+          --bdr1:1px solid;
+          --bdr2:2px solid;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: initial;
+    color: inherit;
+    font-weight: inherit;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 100ms;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.App {
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: var(--Magnolia);
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    border: inherit;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+button:disabled,
+button:disabled:hover {
+  background-color: gray;
+ cursor: not-allowed;
+    }
+input {
+    border: inherit;
+    outline: none;
+    display: block;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.content {
+    width: 100%;
+}
+ .contentWrapper{
+     width: 100%;
+     display: grid;
+     padding-block: 1.5rem 1rem;
+     place-items: center;
+ }
+
+ @media screen and (min-width:1024px) {
+    .content{
+        width: 65%;
+        background-color: white;
+        border-radius: 10px;
+        margin-inline: auto;
+        height: 80%;
+        padding: 1rem;
+        padding-right: 5rem;
+        display: flex;
+        gap: 5rem;
+    }
+ }

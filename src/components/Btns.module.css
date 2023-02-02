@@ -1,0 +1,47 @@
+.btns {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: white;
+}
+  .btnsBack {
+      color:var(--CoolGray);
+  }
+  .btnsBack:hover {
+      color: var(--MarineBlue);
+  }
+   .btnsNext {
+       padding: 0.75rem 1.5rem;
+       border-radius: 5px;
+       background-color: var(--MarineBlue);
+       color: white;
+       grid-column: 2; 
+   }
+       .btnsNext:hover {
+             background-color:hsl(213, 96%, 28%) ;
+         }
+ .btnsConfirm {
+                    
+         padding: 0.75rem 1.5rem;
+         border-radius: 5px;
+         background-color: var(--PurplishBlue);
+        color: white;
+        grid-column: 2;
+        
+}
+ .btnsConfirm:hover {
+background-color:  hsl(243, 100%, 72%);
+
+ }
+@media  screen and (min-width:1024px) {
+    .btns{
+            position: static;
+            align-self: flex-end;
+            padding: 0;
+        }
+}
